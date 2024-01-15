@@ -51,7 +51,7 @@ p {
 
 #infoPage {
     background-color: #273e74;
-    background-image: url("Media/vintage-wallpaper.png");
+    background-image: url("Media/vintagewallpaper.png");
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
