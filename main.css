@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    color: #2c9744;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#frontPageContainer p {
+    color: #2c9744;
+    padding: 0;
+    margin: 2pt;
+    font-size: 1.5em;
+}
+
+#PageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frontPageContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#myoasislogo {
+    height: 250px;
+}
+
+#infoPage {
+    background-image: url("./media/vintage-wallpaper.png");
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+}
+
+#infoPage p, #infoPage li {
+    text-align: left;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+}
