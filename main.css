@@ -49,7 +49,7 @@ p {
 }
 
 #infoPage {
-    background-image: url("./media/vintage-wallpaper.png");
+    background-image: url("./Media/vintage-wallpaper.png");
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
